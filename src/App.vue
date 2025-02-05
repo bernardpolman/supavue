@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <Navigation />
+    <!-- <Navigation component goes here /> -->
     <v-main>
       <!-- Initial loader -->
       <v-container v-if="!isLoaded && !isAuthRoute" class="d-flex justify-center fill-height">
